@@ -13,10 +13,7 @@ namespace Fibonacci.Domain.CustomAttributes
         {
             if (value is int n)
             {
-                // Lakukan perhitungan angka Fibonacci di sini
                 int fibN = CalculateFibonacci(n);
-
-                // Validasi apakah hasilnya sama dengan nilai yang diharapkan
                 return fibN == n;
             }
 

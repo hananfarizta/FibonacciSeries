@@ -8,6 +8,6 @@ namespace Fibonacci.Domain.Dto
     {
         [Required]
         [Range(0, int.MaxValue)]
-        public int Value { get; set; }
+        public int n { get; set; }
     }
 }
